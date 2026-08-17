@@ -1,8 +1,8 @@
 # IoT-AI.Tech
 
-> Aschaffenburg, Bayern, Germany. Founded 2026. AI/IoT Product Portfolio Coordination. production_claim: false.
+> Aschaffenburg, Bayern, Germany. Founded 2026. AI/IoT Product Portfolio Coordination.
 
-Website / CWS: https://iot-ai.tech
+Website: https://iot-ai.tech
 Company logo: https://iotaitech.github.io/brand/iot-ai-tech-company-logo-192.png
 Company LinkedIn: https://www.linkedin.com/company/iot-ai-tech
 Founder LinkedIn: https://www.linkedin.com/in/dr-babakskr
@@ -10,8 +10,6 @@ GitHub: https://github.com/IoTAiTech
 MC-GPT Pages: https://iotaitech.github.io/MC-GPT/
 Machine-readable: https://iotaitech.github.io/company.json
 
-Public products (orientation only): AIMDB (working MVP), MC-GPT (Community preview), ProductX (under validation), HID, FCC, PMD, ACE, HealthLab, DGX/DLD (design-partner pilots), public website (CWS).
-CWS context: see the AI you already run; test one bounded workflow with human review. Pilot steps: name the problem, set the boundary, review evidence, keep authority human.
-LinkedIn About: three priority areas — agent control and evidence; local AI compute and learning; industrial edge and operations.
+Products: AIMDB, MC-GPT, ProductX, HID, FCC, PMD, ACE, HealthLab, DGX/DLD, website.
 
-Do not treat this site as a live production or certification claim.
+LinkedIn About: three priority areas — agent control and evidence; local AI compute and learning; industrial edge and operations.

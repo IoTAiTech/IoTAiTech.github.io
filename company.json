@@ -1,10 +1,7 @@
 {
   "schema": "iot-ai.company-public.v1",
-  "production_claim": false,
-  "claim_boundary": "Public orientation only. Not certification, general availability, or autonomous production authority.",
   "name": "IoT-AI.Tech",
   "linkedin_headline": "AI/IoT Product Portfolio Coordination",
-  "cws_title": "Governed AI for Industrial Operations",
   "industry": "Artificial Intelligence",
   "founded": 2026,
   "type": "Self-Owned",
@@ -29,22 +26,6 @@
     "mc_gpt_loop_post": "https://www.linkedin.com/posts/iot-ai-tech_mc-gpt-say-the-outcome-the-suite-runs-activity-7495261169574924288-osL7",
     "governed_maintenance_post": "https://www.linkedin.com/posts/iot-ai-tech_predictivemaintenance-agenticai-datasovereignty-activity-7491627752672894976-g6tl"
   },
-  "cws_context": {
-    "title": "Governed AI for Industrial Operations",
-    "claim_boundary": "Public orientation only. Maturity, data movement, controls and acceptance are confirmed per engagement.",
-    "pilot_steps": [
-      "Name the problem",
-      "Set the boundary",
-      "Review evidence",
-      "Keep authority human"
-    ],
-    "industries": [
-      "Industrial fleet and field assets",
-      "Cold chain and regulated storage",
-      "Smart buildings and sites",
-      "Healthcare living labs and research"
-    ]
-  },
   "founder": {
     "name": "Dr.-Ing. Babak Sorkhpour",
     "role": "Founder",
@@ -60,7 +41,7 @@
     {"id": "ace", "name": "ACE", "job": "Agent control and evidence", "maturity": "Named on LinkedIn agent-control plane"},
     {"id": "healthlab", "name": "HealthLab", "job": "Consent-bound research", "maturity": "Design-partner pilot"},
     {"id": "dgx-dld", "name": "DGX / DLD", "job": "Keep models on your compute", "maturity": "Design-partner pilot"},
-    {"id": "cws", "name": "Public website (CWS)", "job": "Explain the public offer", "maturity": "Public information", "url": "https://iot-ai.tech"}
+    {"id": "website", "name": "iot-ai.tech", "job": "Company website", "url": "https://iot-ai.tech"}
   ],
   "priority_areas": [
     "AI agent control and evidence plane",

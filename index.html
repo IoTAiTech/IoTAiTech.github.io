@@ -53,11 +53,18 @@
       border:1px solid var(--line); border-radius:20px; overflow:hidden; margin: .4rem 0 1.4rem;
       background:#081018;
     }
-    .hero img.cover { width:100%; height:min(220px,32vw); object-fit:cover; display:block; }
+    .hero .cover {
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:1128 / 191;
+      object-fit:fill;
+      object-position:center;
+      vertical-align:bottom;
+    }
     .hero-body { padding:1.3rem 1.4rem 1.5rem; }
     h1 { font-size:clamp(1.9rem,4.4vw,2.8rem); line-height:1.12; margin:.2rem 0 .7rem; }
     .lede { color:var(--muted); max-width:68ch; }
-    .note { color:#ff8a7a; font-size:.95rem; }
     .actions { display:flex; flex-wrap:wrap; gap:.7rem; margin:1.1rem 0 .2rem; }
     .btn { display:inline-flex; align-items:center; gap:.4rem; padding:.75rem 1.1rem; border-radius:999px; font-weight:700; text-decoration:none; }
     .btn-primary { background:var(--accent); color:#04221f; }
@@ -88,52 +95,24 @@
       <a href="#products">Products</a>
       <a href="#linkedin">LinkedIn</a>
       <a href="https://www.linkedin.com/company/iot-ai-tech">Company LinkedIn</a>
-      <a href="https://iot-ai.tech">Customer website</a>
+      <a href="https://iot-ai.tech">Website</a>
       <a href="https://iotaitech.github.io/MC-GPT/">MC-GPT</a>
       <a href="company.json">JSON</a>
     </nav>
   </header>
   <main>
     <section class="hero">
-      <img class="cover" src="brand/iot-ai-tech-cover-linkedin.jpg" width="1128" height="191" alt="IoT-AI.Tech LinkedIn cover">
+      <img class="cover" src="brand/iot-ai-tech-cover-linkedin.jpg" width="1128" height="191" alt="IoT-AI.Tech">
       <div class="hero-body">
-        <p class="lede">From the public customer website and company LinkedIn: governed AI for industrial operations — not a shelf automation vendor.</p>
-        <h1>See the AI you already run. Then test one bounded workflow with human review.</h1>
-        <p class="lede">IoT-AI.Tech is a founder-led engineering company in Aschaffenburg, Bavaria. Public orientation only. Maturity, data movement, controls and acceptance are confirmed per engagement. This is not certification, general availability, or autonomous production authority.</p>
-        <p class="note"><code>production_claim: false</code>. The public website does not operate plant systems and does not accept live intake.</p>
+        <h1>IoT-AI.Tech</h1>
+        <p class="lede">Founder-led engineering company in Aschaffenburg, Bavaria. AI/IoT product portfolio coordination for industrial and regulated teams in Germany and Europe.</p>
         <div class="actions">
           <a class="btn btn-primary" href="https://www.linkedin.com/company/iot-ai-tech">Official LinkedIn</a>
-          <a class="btn btn-ghost" href="https://iot-ai.tech">iot-ai.tech (CWS)</a>
+          <a class="btn btn-ghost" href="https://iot-ai.tech">iot-ai.tech</a>
           <a class="btn btn-ghost" href="https://iotaitech.github.io/MC-GPT/">MC-GPT docs</a>
           <a class="btn btn-ghost" href="mailto:info@iot-ai.tech">info@iot-ai.tech</a>
         </div>
       </div>
-    </section>
-
-    <h2>How the public website frames the company</h2>
-    <p class="lede">The Customer Web Surface (CWS) at <a href="https://iot-ai.tech">iot-ai.tech</a> is the public discovery site. Copy below is rewritten from that visitor concept — one owner, one workflow, a stop-or-proceed decision, and human authority on higher-impact actions.</p>
-    <section class="grid">
-      <article class="card"><h3>What is this company?</h3><p>Independent German engineering for industrial and regulated teams — not a certified auditor and not unsupervised plant control.</p></article>
-      <article class="card"><h3>What problem?</h3><p>Models, agents, prompts and tools already run without one inventory, owner, data boundary and stop-or-proceed decision.</p></article>
-      <article class="card"><h3>What can you evaluate now?</h3><p>AIMDB is the working MVP for that inventory. ProductX remains under validation. MC-GPT is the Community coding-control preview.</p></article>
-      <article class="card"><h3>What is not claimed?</h3><p>No general availability, savings, uptime, accuracy score, certification, or autonomous production authority.</p></article>
-    </section>
-
-    <h2>How a CWS pilot is scoped</h2>
-    <p class="lede">From the public visitor concept on <a href="https://iot-ai.tech">iot-ai.tech</a>. One named workflow only. Public contact intake is not live.</p>
-    <section class="grid">
-      <article class="card"><p class="mat">1</p><h3>Name the problem</h3><p>One owner, one workflow, and a stop or proceed decision.</p></article>
-      <article class="card"><p class="mat">2</p><h3>Set the boundary</h3><p>Which data, tools, people and sites are in scope.</p></article>
-      <article class="card"><p class="mat">3</p><h3>Review evidence</h3><p>What was proposed, decided and observed stays reviewable.</p></article>
-      <article class="card"><p class="mat">4</p><h3>Keep authority human</h3><p>Higher-impact actions stay with an accountable person.</p></article>
-    </section>
-
-    <h2>Where a public pilot can help</h2>
-    <section class="grid">
-      <article class="card"><h3>Industrial fleet and field assets</h3><p>Remote controllers and gateways are hard to review in one place before a change. A pilot can combine a local host view with a fleet review path and operator-approved evidence.</p></article>
-      <article class="card"><h3>Cold chain and regulated storage</h3><p>Temperature-sensitive stock needs a reconstructable trail of who changed what. A pilot can evaluate selected sensors, review steps and customer-chosen evidence retention.</p></article>
-      <article class="card"><h3>Smart buildings and sites</h3><p>Building systems, schedules and exceptions live in separate consoles. A pilot can review site context and keep schedule or set-point proposals behind human approval.</p></article>
-      <article class="card"><h3>Healthcare living labs</h3><p>Sensor studies need consent status and data-movement limits in the same review. Lawful basis stays with the customer.</p></article>
     </section>
 
     <h2 id="products">Products and surfaces</h2>
@@ -190,9 +169,9 @@
         <p>Keep models on your compute. Evaluation-first model work on customer-controlled infrastructure, with rollback criteria.</p>
       </article>
       <article class="card">
-        <p class="mat">This website</p>
-        <h3>Public website (CWS)</h3>
-        <p>Explain the public offer. Discovery, trust and legal routes. It does not operate plant systems. <a href="https://iot-ai.tech">iot-ai.tech</a>.</p>
+        <p class="mat">Website</p>
+        <h3>iot-ai.tech</h3>
+        <p>Company website. <a href="https://iot-ai.tech">iot-ai.tech</a>.</p>
       </article>
     </section>
 
@@ -225,7 +204,7 @@
     </div>
   </main>
   <footer>
-    <p><img src="brand/iot-ai-tech-company-logo-96.png" width="32" height="32" alt="" style="vertical-align:middle;background:#fff;border-radius:6px;padding:2px"> IoT-AI.Tech · Aschaffenburg · <a href="https://www.linkedin.com/company/iot-ai-tech">LinkedIn</a> · <a href="https://iot-ai.tech">CWS</a> · <a href="ATTRIBUTION.md">Asset notes</a></p>
+    <p><img src="brand/iot-ai-tech-company-logo-96.png" width="32" height="32" alt="" style="vertical-align:middle;background:#fff;border-radius:6px;padding:2px"> IoT-AI.Tech · Aschaffenburg · <a href="https://www.linkedin.com/company/iot-ai-tech">LinkedIn</a> · <a href="https://iot-ai.tech">iot-ai.tech</a> · <a href="ATTRIBUTION.md">Asset notes</a></p>
   </footer>
 </body>
 </html>
