@@ -3,42 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IoT-AI.Tech — sovereign AI-IoT factory, Aschaffenburg</title>
-  <meta name="description" content="IoT-AI.Tech is an Aschaffenburg company coordinating a sovereign AI-IoT product portfolio for industrial and regulated European buyers. Founder Dr.-Ing. Babak Sorkhpour. Community preview: MC-GPT.">
+  <title>IoT-AI.Tech — governed AI for industrial operations</title>
+  <meta name="description" content="IoT-AI.Tech is a founder-led engineering company in Aschaffenburg. Official company logo, AIMDB, ProductX, MC-GPT, and design-partner surfaces HID, FCC, PMD, HealthLab and DGX/DLD. LinkedIn: linkedin.com/company/iot-ai-tech.">
   <meta name="author" content="Dr.-Ing. Babak Sorkhpour, IoT-AI.Tech">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://iotaitech.github.io/">
-  <link rel="alternate" type="application/json" href="company.json" title="Company data">
+  <link rel="icon" href="brand/iot-ai-tech-company-logo-96.png" type="image/png">
+  <link rel="apple-touch-icon" href="brand/iot-ai-tech-company-logo-192.png">
+  <link rel="alternate" type="application/json" href="company.json">
   <link rel="sitemap" type="application/xml" href="sitemap.xml">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="IoT-AI.Tech — Aschaffenburg, Germany">
-  <meta property="og:description" content="AI/IoT product-portfolio coordination. Local-first, auditable agent systems. Community MC-GPT is a developer preview.">
+  <meta property="og:title" content="IoT-AI.Tech — Aschaffenburg">
+  <meta property="og:description" content="Governed AI for industrial operations. Company logo, products, and official LinkedIn context.">
   <meta property="og:url" content="https://iotaitech.github.io/">
-  <meta property="og:image" content="https://raw.githubusercontent.com/IoTAiTech/MC-GPT/main/assets/brand/MC-GPT-Social-Preview-1280x640.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="https://raw.githubusercontent.com/IoTAiTech/MC-GPT/main/assets/brand/MC-GPT-Logo-Master-1024.png">
+  <meta property="og:image" content="https://iotaitech.github.io/brand/iot-ai-tech-cover-linkedin.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://iot-ai.tech/#org",
     "name": "IoT-AI.Tech",
     "url": "https://iot-ai.tech",
+    "logo": "https://iotaitech.github.io/brand/iot-ai-tech-company-logo-192.png",
     "email": "info@iot-ai.tech",
     "foundingDate": "2026",
     "slogan": "AI/IoT Product Portfolio Coordination",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Aschaffenburg",
-      "addressRegion": "Bayern",
-      "postalCode": "63743",
-      "addressCountry": "DE"
-    },
-    "founder": {
-      "@type": "Person",
-      "name": "Dr.-Ing. Babak Sorkhpour",
-      "sameAs": ["https://www.linkedin.com/in/dr-babakskr"]
-    },
+    "address": {"@type":"PostalAddress","addressLocality":"Aschaffenburg","addressRegion":"Bayern","postalCode":"63743","addressCountry":"DE"},
+    "founder": {"@type":"Person","name":"Dr.-Ing. Babak Sorkhpour","sameAs":["https://www.linkedin.com/in/dr-babakskr"]},
     "sameAs": [
       "https://github.com/IoTAiTech",
       "https://iotaitech.github.io/",
@@ -48,85 +38,194 @@
   }
   </script>
   <style>
-    :root { --ink:#e8eef6; --muted:#9aacbf; --paper:#07111c; --card:#0d1b2a; --line:#1e3348; --accent:#3dd6c6; --warn:#f0b429; }
+    :root { --ink:#e8eef6; --muted:#9aacbf; --paper:#07111c; --card:#0d1b2a; --line:#1e3348; --accent:#3dd6c6; --gold:#f0b429; --navy:#0A1D3A; }
     * { box-sizing: border-box; }
-    body { margin:0; font:18px/1.55 "Segoe UI","IBM Plex Sans",sans-serif; color:var(--ink); background:radial-gradient(1000px 480px at 10% -10%,#15425f 0%,transparent 55%),var(--paper); }
+    body { margin:0; font:18px/1.55 "Segoe UI","IBM Plex Sans",sans-serif; color:var(--ink); background:var(--paper); }
     a { color:var(--accent); }
-    header,main,footer { width:min(980px,calc(100% - 2rem)); margin-inline:auto; }
-    header { display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; padding:1.2rem 0; }
-    nav { display:flex; flex-wrap:wrap; gap:.8rem 1.1rem; font-weight:600; }
+    a:focus-visible { outline:3px solid #8ec8ff; outline-offset:3px; }
+    header,main,footer { width:min(1080px,calc(100% - 2rem)); margin-inline:auto; }
+    header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 0; }
+    .brand { display:flex; align-items:center; gap:.8rem; color:inherit; text-decoration:none; }
+    .brand img { width:56px; height:56px; object-fit:contain; background:#fff; border-radius:12px; padding:4px; }
+    nav { display:flex; flex-wrap:wrap; gap:.75rem 1.05rem; font-weight:600; }
     nav a { color:var(--ink); text-decoration:none; }
-    h1 { font-size:clamp(2rem,5vw,3.2rem); line-height:1.1; max-width:18ch; }
-    .lede { color:var(--muted); max-width:62ch; }
-    .note { color:#ff8a7a; }
-    .grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
-    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:1.1rem; }
-    .card h2 { margin:.1rem 0 .4rem; font-size:1.05rem; }
-    .card p { margin:0; color:var(--muted); }
-    .actions { display:flex; flex-wrap:wrap; gap:.7rem; margin:1.3rem 0; }
-    .btn { display:inline-flex; padding:.8rem 1.1rem; border-radius:999px; font-weight:700; text-decoration:none; }
+    .hero {
+      border:1px solid var(--line); border-radius:20px; overflow:hidden; margin: .4rem 0 1.4rem;
+      background:#081018;
+    }
+    .hero img.cover { width:100%; height:min(220px,32vw); object-fit:cover; display:block; }
+    .hero-body { padding:1.3rem 1.4rem 1.5rem; }
+    h1 { font-size:clamp(1.9rem,4.4vw,2.8rem); line-height:1.12; margin:.2rem 0 .7rem; }
+    .lede { color:var(--muted); max-width:68ch; }
+    .note { color:#ff8a7a; font-size:.95rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:.7rem; margin:1.1rem 0 .2rem; }
+    .btn { display:inline-flex; align-items:center; gap:.4rem; padding:.75rem 1.1rem; border-radius:999px; font-weight:700; text-decoration:none; }
     .btn-primary { background:var(--accent); color:#04221f; }
     .btn-ghost { border:1px solid var(--line); color:var(--ink); }
-    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:2rem; padding:1.6rem 0 2.4rem; }
-    blockquote { border-left:4px solid var(--warn); margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; color:var(--ink); }
+    .grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:1.05rem 1.1rem; }
+    .card h2, .card h3 { margin:.15rem 0 .35rem; font-size:1.05rem; }
+    .card p { margin:0; color:var(--muted); font-size:.96rem; }
+    .card .mat { color:var(--gold); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; }
+    .seal { width:56px; height:56px; object-fit:contain; border-radius:10px; background:#08141f; }
+    blockquote { border-left:4px solid var(--gold); margin:1.2rem 0; padding:.15rem 0 .15rem 1rem; }
+    .who { display:flex; gap:1rem; align-items:flex-start; }
+    .who img { width:88px; height:88px; border-radius:14px; object-fit:cover; }
+    footer { color:var(--muted); border-top:1px solid var(--line); margin-top:2rem; padding:1.5rem 0 2.4rem; }
+    @media (max-width:640px) { .who { flex-direction:column; } .brand img { width:48px; height:48px; } }
   </style>
 </head>
 <body>
   <header>
-    <strong>IoT-AI.Tech</strong>
+    <a class="brand" href="./">
+      <img src="brand/iot-ai-tech-company-logo-192.png" width="56" height="56" alt="IoT-AI.Tech company logo">
+      <div>
+        <strong>IoT-AI.Tech</strong>
+        <div class="lede" style="font-size:.9rem">Aschaffenburg · Germany</div>
+      </div>
+    </a>
     <nav aria-label="Primary">
-      <a href="https://www.linkedin.com/company/iot-ai-tech">LinkedIn</a>
-      <a href="https://iot-ai.tech">Website</a>
+      <a href="#products">Products</a>
+      <a href="#linkedin">LinkedIn</a>
+      <a href="https://www.linkedin.com/company/iot-ai-tech">Company LinkedIn</a>
+      <a href="https://iot-ai.tech">Customer website</a>
       <a href="https://iotaitech.github.io/MC-GPT/">MC-GPT</a>
-      <a href="https://github.com/IoTAiTech">GitHub</a>
-      <a href="company.json">company.json</a>
+      <a href="company.json">JSON</a>
     </nav>
   </header>
   <main>
-    <p class="lede">Aschaffenburg, Bayern · founded 2026 · AI/IoT Product Portfolio Coordination</p>
-    <h1>Trustworthy AI for industrial and regulated Europe.</h1>
-    <p class="lede">IoT-AI.Tech is developing a local-first AI-IoT factory so agent systems can be selected, governed and evidenced before they touch a plant, a fleet or a customer process. The public Community preview of the coding-control plane is <a href="https://iotaitech.github.io/MC-GPT/">MC-GPT</a>.</p>
-    <p class="note">Public pages are company information and a Community Developer Preview. <code>production_claim: false</code>. Not a certification.</p>
-    <div class="actions">
-      <a class="btn btn-primary" href="https://www.linkedin.com/company/iot-ai-tech">Company LinkedIn</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/dr-babakskr">Founder LinkedIn</a>
-      <a class="btn btn-ghost" href="https://iotaitech.github.io/MC-GPT/">MC-GPT Pages</a>
-      <a class="btn btn-ghost" href="mailto:info@iot-ai.tech">info@iot-ai.tech</a>
-    </div>
-    <h2>From the official LinkedIn About</h2>
-    <p class="lede">IoT-AI.Tech applies a systematic technology-application selection approach to turn a sovereign AI-IoT factory architecture into validated industrial, regulated and commercially scalable use cases for the German and European market.</p>
+    <section class="hero">
+      <img class="cover" src="brand/iot-ai-tech-cover-linkedin.jpg" width="1128" height="191" alt="IoT-AI.Tech LinkedIn cover">
+      <div class="hero-body">
+        <p class="lede">From the public customer website and company LinkedIn: governed AI for industrial operations — not a shelf automation vendor.</p>
+        <h1>See the AI you already run. Then test one bounded workflow with human review.</h1>
+        <p class="lede">IoT-AI.Tech is a founder-led engineering company in Aschaffenburg, Bavaria. Public orientation only. Maturity, data movement, controls and acceptance are confirmed per engagement. This is not certification, general availability, or autonomous production authority.</p>
+        <p class="note"><code>production_claim: false</code>. The public website does not operate plant systems and does not accept live intake.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.linkedin.com/company/iot-ai-tech">Official LinkedIn</a>
+          <a class="btn btn-ghost" href="https://iot-ai.tech">iot-ai.tech (CWS)</a>
+          <a class="btn btn-ghost" href="https://iotaitech.github.io/MC-GPT/">MC-GPT docs</a>
+          <a class="btn btn-ghost" href="mailto:info@iot-ai.tech">info@iot-ai.tech</a>
+        </div>
+      </div>
+    </section>
+
+    <h2>How the public website frames the company</h2>
+    <p class="lede">The Customer Web Surface (CWS) at <a href="https://iot-ai.tech">iot-ai.tech</a> is the public discovery site. Copy below is rewritten from that visitor concept — one owner, one workflow, a stop-or-proceed decision, and human authority on higher-impact actions.</p>
+    <section class="grid">
+      <article class="card"><h3>What is this company?</h3><p>Independent German engineering for industrial and regulated teams — not a certified auditor and not unsupervised plant control.</p></article>
+      <article class="card"><h3>What problem?</h3><p>Models, agents, prompts and tools already run without one inventory, owner, data boundary and stop-or-proceed decision.</p></article>
+      <article class="card"><h3>What can you evaluate now?</h3><p>AIMDB is the working MVP for that inventory. ProductX remains under validation. MC-GPT is the Community coding-control preview.</p></article>
+      <article class="card"><h3>What is not claimed?</h3><p>No general availability, savings, uptime, accuracy score, certification, or autonomous production authority.</p></article>
+    </section>
+
+    <h2>How a CWS pilot is scoped</h2>
+    <p class="lede">From the public visitor concept on <a href="https://iot-ai.tech">iot-ai.tech</a>. One named workflow only. Public contact intake is not live.</p>
+    <section class="grid">
+      <article class="card"><p class="mat">1</p><h3>Name the problem</h3><p>One owner, one workflow, and a stop or proceed decision.</p></article>
+      <article class="card"><p class="mat">2</p><h3>Set the boundary</h3><p>Which data, tools, people and sites are in scope.</p></article>
+      <article class="card"><p class="mat">3</p><h3>Review evidence</h3><p>What was proposed, decided and observed stays reviewable.</p></article>
+      <article class="card"><p class="mat">4</p><h3>Keep authority human</h3><p>Higher-impact actions stay with an accountable person.</p></article>
+    </section>
+
+    <h2>Where a public pilot can help</h2>
+    <section class="grid">
+      <article class="card"><h3>Industrial fleet and field assets</h3><p>Remote controllers and gateways are hard to review in one place before a change. A pilot can combine a local host view with a fleet review path and operator-approved evidence.</p></article>
+      <article class="card"><h3>Cold chain and regulated storage</h3><p>Temperature-sensitive stock needs a reconstructable trail of who changed what. A pilot can evaluate selected sensors, review steps and customer-chosen evidence retention.</p></article>
+      <article class="card"><h3>Smart buildings and sites</h3><p>Building systems, schedules and exceptions live in separate consoles. A pilot can review site context and keep schedule or set-point proposals behind human approval.</p></article>
+      <article class="card"><h3>Healthcare living labs</h3><p>Sensor studies need consent status and data-movement limits in the same review. Lawful basis stays with the customer.</p></article>
+    </section>
+
+    <h2 id="products">Products and surfaces</h2>
+    <p class="lede">Design-partner pilots are one job each. They are not extra products for sale. Open a dossier only if that job matches your workflow. Seals are decorative monograms, not certificates.</p>
     <section class="grid">
       <article class="card">
-        <h2>1. Agent control and evidence</h2>
-        <p>Governance and execution for agentic AI: context, policy, human approval, audit trails and operational evidence.</p>
+        <p class="mat">Start · working MVP</p>
+        <h3>AIMDB</h3>
+        <p>See which AI you run. A registry for systems, models, agents, prompts, sources and tools with owners and lifecycle notes.</p>
       </article>
       <article class="card">
-        <h2>2. Local AI compute and learning</h2>
-        <p>Local-first validation, model evaluation, adapter training and controlled capability release without unnecessary data egress.</p>
+        <p class="mat">Community preview</p>
+        <h3>MC-GPT</h3>
+        <p>Run a reviewable multi-coder loop. Task, Meeting and Multi-Coder. Personal and noncommercial under PolyForm Noncommercial 1.0.0. <a href="https://iotaitech.github.io/MC-GPT/">Docs</a> · <a href="https://github.com/IoTAiTech/MC-GPT">GitHub</a>. Not a PMD replacement.</p>
       </article>
       <article class="card">
-        <h2>3. Industrial edge and operations</h2>
-        <p>Modular command surfaces for fleet and asset visibility, predictive maintenance and project intelligence.</p>
+        <p class="mat">Platform · under validation</p>
+        <h3>ProductX</h3>
+        <p>Bound what an agent may do. Connects inventory to context, policy, human authorization and outcome evidence.</p>
+      </article>
+      <article class="card">
+        <img class="seal" src="brand/seals/hid-seal-320.webp" width="56" height="56" alt="">
+        <p class="mat">Design-partner pilot</p>
+        <h3>HID</h3>
+        <p>Review one edge host. Operator view for selected signals and decisions on one industrial host, with a human approval boundary for remediation.</p>
+      </article>
+      <article class="card">
+        <img class="seal" src="brand/seals/fcc-seal-320.webp" width="56" height="56" alt="">
+        <p class="mat">Design-partner pilot</p>
+        <h3>FCC</h3>
+        <p>Review a selected fleet. Asset visibility, proposed next steps, NIS2-oriented notes and rollback evidence. Critical actions stay approval-gated.</p>
+      </article>
+      <article class="card">
+        <img class="seal" src="brand/seals/pmd-seal-320.webp" width="56" height="56" alt="">
+        <p class="mat">Design-partner pilot</p>
+        <h3>PMD</h3>
+        <p>Prove delivery work. Keeps AI-assisted project work tied to a request, verification evidence and a human decision.</p>
+      </article>
+      <article class="card">
+        <img class="seal" src="brand/seals/ace-seal-320.webp" width="56" height="56" alt="">
+        <p class="mat">Agent control</p>
+        <h3>ACE</h3>
+        <p>Agent control and evidence: context, policy, human approval and operational evidence. Named on company LinkedIn as the agent-control plane.</p>
+      </article>
+      <article class="card">
+        <p class="mat">Design-partner pilot</p>
+        <h3>HealthLab</h3>
+        <p>Consent-bound research. Living-lab work where consent, revocation and data-movement limits must stay visible.</p>
+      </article>
+      <article class="card">
+        <img class="seal" src="brand/seals/dld-seal-320.webp" width="56" height="56" alt="">
+        <p class="mat">Design-partner pilot</p>
+        <h3>DGX / DLD</h3>
+        <p>Keep models on your compute. Evaluation-first model work on customer-controlled infrastructure, with rollback criteria.</p>
+      </article>
+      <article class="card">
+        <p class="mat">This website</p>
+        <h3>Public website (CWS)</h3>
+        <p>Explain the public offer. Discovery, trust and legal routes. It does not operate plant systems. <a href="https://iot-ai.tech">iot-ai.tech</a>.</p>
       </article>
     </section>
-    <blockquote cite="https://www.linkedin.com/posts/iot-ai-tech_ai-iot-aiot-activity-7476571056925933568-DFoO">
-      <p>“Real intelligence must have roots. AI without operational grounding creates noise. Automation without governance creates risk.”</p>
-      <p><a href="https://www.linkedin.com/posts/iot-ai-tech_ai-iot-aiot-activity-7476571056925933568-DFoO">Company post on LinkedIn</a></p>
+
+    <h2 id="linkedin">Context from company LinkedIn</h2>
+    <p class="lede">Official profile: <a href="https://www.linkedin.com/company/iot-ai-tech">linkedin.com/company/iot-ai-tech</a> · headline “AI/IoT Product Portfolio Coordination” · industry Artificial Intelligence · founded 2026 · Aschaffenburg, Bayern 63743.</p>
+    <blockquote cite="https://www.linkedin.com/company/iot-ai-tech">
+      <p>IoT-AI.Tech applies a systematic technology-application selection approach so a local-first AI-IoT factory can become validated industrial, regulated and commercially scalable use cases for the German and European market — especially Mittelstand, infrastructure, energy, logistics, smart-city and regulated B2B environments.</p>
     </blockquote>
-    <p class="lede">We look for pilot partners, system integrators, research collaborators, public-funding partners and investors who want auditable, sovereign AI. Commercial use of MC-GPT needs a written licence.</p>
-    <section class="grid">
-      <article class="card">
-        <h2>Facts</h2>
-        <p>Headquarters: Aschaffenburg, Bayern 63743, DE. Founder: Dr.-Ing. Babak Sorkhpour. Specialties listed on LinkedIn: AI governance, agent control, agentic AI, IoT AI, local LLM operations, on-prem AI.</p>
-      </article>
-      <article class="card">
-        <h2>Public software</h2>
-        <p><a href="https://github.com/IoTAiTech/MC-GPT">MC-GPT</a> Community source is PolyForm Noncommercial 1.0.0. Docs: <a href="https://iotaitech.github.io/MC-GPT/">iotaitech.github.io/MC-GPT</a>.</p>
-      </article>
-    </section>
+    <blockquote cite="https://www.linkedin.com/posts/iot-ai-tech_ai-iot-aiot-activity-7476571056925933568-DFoO">
+      <p>“Real intelligence must have roots. AI without operational grounding creates noise. Automation without governance creates risk.” — <a href="https://www.linkedin.com/posts/iot-ai-tech_ai-iot-aiot-activity-7476571056925933568-DFoO">company post</a></p>
+    </blockquote>
+    <blockquote cite="https://www.linkedin.com/posts/iot-ai-tech_github-iotaitechmc-gpt-natural-language-activity-7494170723779891200-CwFO">
+      <p>MC-GPT is the public Community control plane: one English or German sentence becomes Task, Meeting, Multi-Coder, tests, repair and an evidence report. Execution verbs request a bounded run. Review language stays read-only. Founder Accept stays human. — <a href="https://www.linkedin.com/posts/iot-ai-tech_github-iotaitechmc-gpt-natural-language-activity-7494170723779891200-CwFO">company update</a></p>
+    </blockquote>
+    <blockquote cite="https://www.linkedin.com/posts/iot-ai-tech_mc-gpt-say-the-outcome-the-suite-runs-activity-7495261169574924288-osL7">
+      <p>“Say the outcome. The Suite runs the loop.” Community MC-GPT stays source-available for personal and noncommercial study. Company production, hosting and commercial forks need a written licence. — <a href="https://www.linkedin.com/posts/iot-ai-tech_mc-gpt-say-the-outcome-the-suite-runs-activity-7495261169574924288-osL7">company post</a></p>
+    </blockquote>
+    <blockquote cite="https://www.linkedin.com/posts/iot-ai-tech_predictivemaintenance-agenticai-datasovereignty-activity-7491627752672894976-g6tl">
+      <p>On industrial work the public posture is propose-then-approve: generated change may only propose a fix. Physical mutation stays blocked until an operator approves. That is orientation, not a live plant-control claim. — <a href="https://www.linkedin.com/posts/iot-ai-tech_predictivemaintenance-agenticai-datasovereignty-activity-7491627752672894976-g6tl">company post</a></p>
+    </blockquote>
+    <p class="lede">LinkedIn also names three priority areas: agent control and evidence; local AI compute and learning; industrial edge and operations intelligence. The company looks for pilot partners, integrators, research collaborators, public-funding partners and investors. Marketing lines that mix Community MC-GPT with a production AGPL stack are not copied here as a licence or delivery claim.</p>
+
+    <h2>Founder</h2>
+    <div class="card who">
+      <img src="brand/dr-babak-sorkhpour-linkedin-400.jpg" width="88" height="88" alt="Dr.-Ing. Babak Sorkhpour">
+      <div>
+        <h3>Dr.-Ing. Babak Sorkhpour</h3>
+        <p>Founder. Public profile: <a href="https://www.linkedin.com/in/dr-babakskr">linkedin.com/in/dr-babakskr</a>. Doctoral record: <a href="https://dspace.ub.uni-siegen.de/handle/ubsi/1471">OPUS Siegen</a>.</p>
+      </div>
+    </div>
   </main>
   <footer>
-    <p>© 2026 IoT-AI.Tech · Aschaffenburg · <a href="https://www.linkedin.com/company/iot-ai-tech">LinkedIn</a> · <a href="company.json">company.json</a></p>
+    <p><img src="brand/iot-ai-tech-company-logo-96.png" width="32" height="32" alt="" style="vertical-align:middle;background:#fff;border-radius:6px;padding:2px"> IoT-AI.Tech · Aschaffenburg · <a href="https://www.linkedin.com/company/iot-ai-tech">LinkedIn</a> · <a href="https://iot-ai.tech">CWS</a> · <a href="ATTRIBUTION.md">Asset notes</a></p>
   </footer>
 </body>
 </html>
