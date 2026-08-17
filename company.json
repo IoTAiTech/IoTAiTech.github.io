@@ -1,0 +1,60 @@
+{
+  "schema": "iot-ai.company-public.v1",
+  "production_claim": false,
+  "name": "IoT-AI.Tech",
+  "linkedin_headline": "AI/IoT Product Portfolio Coordination",
+  "industry": "Artificial Intelligence",
+  "founded": 2026,
+  "type": "Self-Owned",
+  "headquarters": {
+    "locality": "Aschaffenburg",
+    "region": "Bayern",
+    "postal_code": "63743",
+    "country": "DE"
+  },
+  "website": "https://iot-ai.tech",
+  "email": "info@iot-ai.tech",
+  "github_org": "https://github.com/IoTAiTech",
+  "github_pages": "https://iotaitech.github.io/",
+  "mc_gpt_pages": "https://iotaitech.github.io/MC-GPT/",
+  "linkedin": {
+    "company": "https://www.linkedin.com/company/iot-ai-tech",
+    "company_de": "https://de.linkedin.com/company/iot-ai-tech",
+    "founder": "https://www.linkedin.com/in/dr-babakskr",
+    "about_source": "Official company About on LinkedIn, rewritten for this site",
+    "featured_post": "https://www.linkedin.com/posts/iot-ai-tech_ai-iot-aiot-activity-7476571056925933568-DFoO"
+  },
+  "founder": {
+    "name": "Dr.-Ing. Babak Sorkhpour",
+    "role": "Founder"
+  },
+  "priority_areas": [
+    "AI agent control and evidence plane",
+    "Sovereign local AI compute and learning control plane",
+    "Industrial edge and operations intelligence"
+  ],
+  "specialties": [
+    "AI governance",
+    "Agent control",
+    "Agentic AI",
+    "IoT AI",
+    "local LLM operations",
+    "Sovereign AI-IoT Factory",
+    "Open-source MLOps",
+    "on-prem AI"
+  ],
+  "seeking": [
+    "pilot partners",
+    "system integrators",
+    "research collaborators",
+    "public-funding partners",
+    "investors"
+  ],
+  "public_software": {
+    "mc_gpt": {
+      "repository": "https://github.com/IoTAiTech/MC-GPT",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "status": "Community Developer Preview"
+    }
+  }
+}

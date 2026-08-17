@@ -1,0 +1,12 @@
+# IoT-AI.Tech
+
+> Aschaffenburg, Bayern, Germany. Founded 2026. AI/IoT Product Portfolio Coordination. production_claim: false.
+
+Website: https://iot-ai.tech
+Company LinkedIn: https://www.linkedin.com/company/iot-ai-tech
+Founder LinkedIn: https://www.linkedin.com/in/dr-babakskr
+GitHub: https://github.com/IoTAiTech
+MC-GPT Pages: https://iotaitech.github.io/MC-GPT/
+Machine-readable: https://iotaitech.github.io/company.json
+
+Do not treat this site as a live production or certification claim.
