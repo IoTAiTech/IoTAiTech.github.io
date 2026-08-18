@@ -49,20 +49,29 @@
     .brand img { width:56px; height:56px; object-fit:contain; background:#fff; border-radius:12px; padding:4px; }
     nav { display:flex; flex-wrap:wrap; gap:.75rem 1.05rem; font-weight:600; }
     nav a { color:var(--ink); text-decoration:none; }
-    .hero {
-      border:1px solid var(--line); border-radius:20px; overflow:hidden; margin: .4rem 0 1.4rem;
+    .hero { margin:.4rem 0 1.4rem; }
+    .hero-photo {
+      border:1px solid var(--line);
+      border-radius:20px;
+      overflow:hidden;
+      line-height:0;
       background:#081018;
     }
-    .hero .cover {
+    .hero-photo .cover {
       display:block;
       width:100%;
       height:auto;
       aspect-ratio:1128 / 191;
-      object-fit:fill;
+      object-fit:contain;
       object-position:center;
-      vertical-align:bottom;
     }
-    .hero-body { padding:1.3rem 1.4rem 1.5rem; }
+    .hero-body {
+      margin-top:1rem;
+      padding:1.3rem 1.4rem 1.5rem;
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:20px;
+    }
     h1 { font-size:clamp(1.9rem,4.4vw,2.8rem); line-height:1.12; margin:.2rem 0 .7rem; }
     .lede { color:var(--muted); max-width:68ch; }
     .actions { display:flex; flex-wrap:wrap; gap:.7rem; margin:1.1rem 0 .2rem; }
@@ -102,7 +111,9 @@
   </header>
   <main>
     <section class="hero">
-      <img class="cover" src="brand/iot-ai-tech-cover-linkedin.jpg" width="1128" height="191" alt="IoT-AI.Tech">
+      <div class="hero-photo">
+        <img class="cover" src="brand/iot-ai-tech-cover-linkedin.jpg?v=2" width="1128" height="191" alt="IoT-AI.Tech">
+      </div>
       <div class="hero-body">
         <h1>IoT-AI.Tech</h1>
         <p class="lede">Founder-led engineering company in Aschaffenburg, Bavaria. AI/IoT product portfolio coordination for industrial and regulated teams in Germany and Europe.</p>
